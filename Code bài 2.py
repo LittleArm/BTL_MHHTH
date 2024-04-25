@@ -191,9 +191,9 @@ net_penalty[:, num_nodes + 1] = 0
 def export_excel(net, quantity):  # Xuất net ra excelS
     df = pd.DataFrame(net)
     if quantity == "Capacity":
-        excel_path = 'C:/Users/Hi/Desktop/MM/Capacity.xlsx'
+        excel_path = 'C:/Users/Hi HP/Desktop/MM/Capacity.xlsx'
     else:
-        excel_path = 'C:/Users/Hi/Desktop/MM/Time.xlsx'
+        excel_path = 'C:/Users/Hi HP/Desktop/MM/Time.xlsx'
     df.to_excel(excel_path, index=False, header=False)
 
 
